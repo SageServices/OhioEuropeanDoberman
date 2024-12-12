@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-900 text-white;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(139, 69, 19, 0.2) 0%, rgba(26, 15, 15, 0.95) 70%);
+}
