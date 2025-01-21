@@ -9,7 +9,8 @@ const Header = () => {
     { name: 'Our Dogs', href: 'https://www.ohioeuropeandoberman.com/our-dobermans' },
     { name: 'Puppies', href: 'https://www.ohioeuropeandoberman.com/puppies' },
     { name: 'Services', href: 'https://www.ohioeuropeandoberman.com/litter-news' },
-    { name: 'Contact Us', href: 'https://www.ohioeuropeandoberman.com/Contact' }
+    { name: 'Contact Us', href: 'https://www.ohioeuropeandoberman.com/Contact' },
+    { name: 'Puppy Map', href: 'https://dobermap.netlify.app' }
   ];
 
   return (

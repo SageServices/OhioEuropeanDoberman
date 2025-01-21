@@ -7,7 +7,8 @@ const Footer = () => {
     { name: 'Our Dogs', href: 'https://www.ohioeuropeandoberman.com/our-dogs' },
     { name: 'Puppies', href: 'https://www.ohioeuropeandoberman.com/puppies' },
     { name: 'Litter News', href: 'https://www.ohioeuropeandoberman.com/litter-news' },
-    { name: 'Contact Us', href: 'https://www.ohioeuropeandoberman.com/contact' }
+    { name: 'Contact Us', href: 'https://www.ohioeuropeandoberman.com/contact' },
+    { name: 'Puppy Map', href: 'https://dobermap.netlify.app' }
   ];
 
   return (
@@ -44,24 +45,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Newsletter</h4>
-            <form className="space-y-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-4 py-2 rounded-lg bg-dark-700 border border-primary/20 focus:border-primary/50 outline-none"
-              />
-              <button className="w-full px-4 py-2 bg-gradient-to-r from-primary to-secondary rounded-lg text-accent hover:opacity-90" onClick={() => window.location.href = 'https://www.ohioeuropeandoberman.com/litter-news'}>
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-        
-        <div className="mt-12 pt-8 border-t border-primary/20 text-center text-accent/60">
-          <p>&copy; {new Date().getFullYear()} Ohio European Doberman. All rights reserved.</p>
         </div>
       </div>
     </footer>
